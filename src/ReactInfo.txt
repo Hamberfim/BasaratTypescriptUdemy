@@ -1,0 +1,101 @@
+Getting started for front end development with typescript is extremely easy.
+
+Two of the top frameworks out there, which is angle and vue, are actually written in typescript and
+
+the most popular framework of the which is react supports typescript out of the box.
+
+Let's look at how we can create a front and react application.
+
+Using TypeScript React comes with a package called Create Re-adapt, which takes care of all of the
+
+boilerplate code that you need to create a react application.
+
+So we open up the terminal and run and create react up.
+
+Passing in the name of the application for our case will use the name example.
+
+And because we want to use typescript, we pass in the additional command line flags minus minus template
+
+typescript.
+
+This will install everything that is needed by a react application and set it up for us in the example
+
+folder.
+
+Once the installation is complete, we simply screen the example directory and open it up within our
+
+idee.
+
+As you can see, it has created a lot of the file for us, so we don't need to worry about creating
+
+them myself.
+
+It has the tight ship configuration and its contractor, Jason, and all the package dependencies are
+
+specified under package, Jason, and already installed for us.
+
+Internode underscore modules.
+
+Additionally, the packages, Jason also specifies scripts that we will be looking at in this lesson.
+
+All the source code is located in the source folder and our main application component is in the Apple
+
+TSX file.
+
+A D6 file is the same as a T is full and the only difference is that a desex file supports desex.
+
+GSF is a way of writing HTML within JavaScript and since this file is desex for all of this, HDMI will
+
+additionally be type checked by the compiler.
+
+Now let's look at some of the scripts that can be configured with create react that we open up the terminal
+
+and run and start to start working on our application in life development mode.
+
+This starts to develop Ansible, which compiles the descriptors code on the fly in the JavaScript and
+
+serves up our application at a particular euro and even opens up the browser for us at that you URL.
+
+As you can see, a UI application corresponds to the source code within Apter TSX.
+
+Now let's make some modification to your application.
+
+We the text, learn, react into learning, react the lightsaber, reloads the browser and you can see
+
+that the text is updated in the UI application with learning react.
+
+And that's it for the development workflow.
+
+We can make any additional modifications to our source code and the browser will live, reload.
+
+Now let's look at how we can deploy replication once we are ready to publish.
+
+A user application is designed to run completely within the browser and the only support it needs from
+
+a web server is something that can serve up static false in order to build aesthetic files.
+
+There is a command called NPM Run Build.
+
+This takes on a typescript source code and any static assets found within the public folder and bundle
+
+them up into the build folder.
+
+Now the next step would be to deploy the spill folder to any static file hosting server.
+
+We can even run a static file hosting server ourself while using the server and package to run server
+
+locally.
+
+We run and serve nothing in the name of the folder that we want to serve, which in our case is built
+
+once this command completes its starts, serving up the bill folder and copies the URL that we can open
+
+up in a browser to visit the built application.
+
+As you can see, our final application is same as the application that we were building using NPM Start.
+
+Now there is a lot more learning you can do on your framework of choice, be it react or something else.
+
+But rest assured that once you know typescript getting started is simply a matter of reading the Framework
+
+Startup Guide.

@@ -1,0 +1,87 @@
+Transcript
+
+We create a new directory for our package and then clinging to that directory.
+
+Next, we initialize a new package to Jason by using the familiar command and beam in it minus Y.
+
+Now, because this package will be written in typescript, we installed the desktop compiler with Nimmi
+
+TypeScript and save it as a dependency with minus Capital D.
+
+Now we use this installed compiler to initialize and tsc config.json, by running npx tsc, space minus minus init.
+
+We also specify a few compiler options for the generated ts config.
+
+We specify that the router will be the source folder, which will contain all types of source code and
+
+the output directory as lib, which will contain all the generated assets.
+
+We enable to use maps so we can debug the source code typescript from the generated JavaScript.
+
+We enable declarations so that the compiler generates type definitions which can be used by our types
+
+of consumers.
+
+And we enable declaration map which allows our typescript consumers to navigate from the type definitions
+
+to the typescript of source code.
+
+We will see this output source maps, declarations and declaration maps when we run the compiler against
+
+the source code later in the lesson.
+
+Now let's open up this folder within an idea for this package, we will create a main entry point under
+
+our source index.
+
+Dotty's in terms of code, we can put whatever we want in this package.
+
+For example, we can use a familiar Isbel function and export it from this main module.
+
+Now we will make some minor tweaks to the package.
+
+Adjacent file, a main application entry point will be generated in the folder.
+
+So we change mean to be glib and because we will be generating typescript type definitions as well.
+
+In the loop folder, we add a section for types and pointed to Lib as well.
+
+In terms of building a package, we can run and be easy on the terminal if you want, but we can also
+
+add a special script specifically for compiling using typescript.
+
+We call the script build and within the script we will simply run DMC for the textual compiler.
+
+Now let's open up the terminal and execute this build with NPM run build.
+
+Once this completes, it generates the output sets within the loop folder and you can see that we have
+
+the output JavaScript as well as the source map as well as the declaration as well as the declaration
+
+map.
+
+Once we are happy with our tax code and we have the assets built, we can publish these to NPM by running
+
+and publish.
+
+This makes this package available for use for anyone else through NPM.
+
+That's it for creating an NPM package.
+
+And let's look at how we can consume it.
+
+Now, in terms of using this package, all that we need to do is to install it using NPM package name,
+
+which in our case is Pellant.
+
+Once the installation is complete, you can import this package just like any other module within your
+
+code base, and then we can use this package with complete intellisense and compile and safety and all
+
+the other benefits that TypeScript provides.
+
+We don't have to do anything special in order to use a package like this.
+
+For example, at this point we can simply run DC to compile our application and then run it through
+
+node and you can see that the output matches are expectations.
