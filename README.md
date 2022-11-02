@@ -1,2 +1,2 @@
 ### Basarat Typescript Udemy
-Lesson that overlap my existing education in Typescript
+Lessons that overlap my existing education in Typescript
